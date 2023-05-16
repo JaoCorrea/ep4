@@ -1,0 +1,20 @@
+body{
+    display: grid;
+    grid-template-areas: 
+
+}
+
+.grid-h{
+    grid-area: cabeca;
+}
+
+.grid-a{
+
+}
+.grid-m{
+
+}
+ 
+.grid-f{
+
+}
