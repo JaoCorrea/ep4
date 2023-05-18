@@ -1,20 +1,48 @@
 body{
     display: grid;
     grid-template-areas: 
+    "cabeca cabeca cabeca"
+    "ladoss princi ladosx"
+    "footer footer footer";
+    grid-template-columns: auto 700px auto;
+    grid-template-rows: auto auto 100px;
+    background-color: rgb(223, 108, 0);
+    grid-gap: 10px;
+}
+.logo{
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    border: 50%;
+}
 
+p{
+    color: black;
+    font-size: larger;
 }
 
 .grid-h{
     grid-area: cabeca;
+    background-color:aliceblue;
+    ;
 }
 
 .grid-a{
+    grid-area: ladoss;
+    background-color:aliceblue;
 
 }
 .grid-m{
-
+    grid-area: princi;
+    background-color: aliceblue;
 }
  
-.grid-f{
+.grid-n{
+    grid-area: ladosx;
+    background-color: aliceblue;
+}
 
+.grid-f{
+    grid-area: footer;
+    background-color: aliceblue;
 }
