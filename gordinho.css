@@ -46,3 +46,7 @@ p{
     grid-area: footer;
     background-color: aliceblue;
 }
+
+.imagens{
+    width: 100px;
+}
