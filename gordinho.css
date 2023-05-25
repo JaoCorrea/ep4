@@ -6,15 +6,28 @@ body{
     "footer footer footer";
     grid-template-columns: auto 700px auto;
     grid-template-rows: auto auto 100px;
-    background-color: rgb(223, 108, 0);
-    grid-gap: 10px;
+    background-color: rgb(112, 112, 112);
+    grid-gap: 0px;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
 }
 .logo{
-    width: 230px;
-    height: 230px;
-    border-radius: 50%;
-    border: 50%;
+    width: 250px;
+    height: 200px;
+    border-radius: 70%;
+    border: 70%;
 }
+
+header{
+    display: flex;
+    align-items: center;
+    color: white
+    
+}
+
 
 p{
     color: black;
@@ -23,8 +36,7 @@ p{
 
 .grid-h{
     grid-area: cabeca;
-    background-color:aliceblue;
-    ;
+    background-color: #4f4f4f;
 }
 
 .grid-a{
@@ -44,9 +56,5 @@ p{
 
 .grid-f{
     grid-area: footer;
-    background-color: aliceblue;
-}
-
-.imagens{
-    width: 100px;
+    background-color: #4f4f4f
 }
