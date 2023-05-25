@@ -13,12 +13,32 @@ body{
 *{
     padding: 0px;
     margin: 0px;
+
 }
+
+
+.crianca-gorda{
+    display:grid;
+    padding: 50px;
+    height: 250px;
+    width: 200px;
+}
+
+
 .logo{
-    width: 250px;
-    height: 200px;
+    width: 200px;
+    height: 130px;
     border-radius: 70%;
     border: 70%;
+}
+
+.foto{
+    height: 250px;
+    width: 250px;
+    padding: 50px;
+    padding-left: 100px;
+    
+
 }
 
 header{
@@ -28,6 +48,10 @@ header{
     
 }
 
+footer{
+    display: flex;
+    align-items: center;
+}
 
 p{
     color: black;
@@ -37,6 +61,8 @@ p{
 .grid-h{
     grid-area: cabeca;
     background-color: #4f4f4f;
+    display:flex;
+    text-align: right;
 }
 
 .grid-a{
@@ -56,5 +82,6 @@ p{
 
 .grid-f{
     grid-area: footer;
-    background-color: #4f4f4f
+    background-color: #4f4f4f;
+    
 }
