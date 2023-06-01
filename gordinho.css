@@ -8,36 +8,40 @@ body{
     grid-template-rows: auto auto 100px;
     background-color: rgb(112, 112, 112);
     grid-gap: 0px;
+    /*Este bloco define as propriedades de layout para o elemento body. Ele utiliza um layout de grid com três linhas e três colunas, onde o cabeçalho (cabeca) ocupa a primeira linha, os lados esquerdo e direito (ladoss e ladosx) ocupam a segunda linha e o conteúdo principal (princi) ocupa a segunda coluna. O rodapé (footer) ocupa a terceira linha. Também define a cor de fundo como um tom de cinza e remove qualquer espaço entre as células do grid.*/
 }
 
 *{
     padding: 0px;
     margin: 0px;
-
+/*Este bloco define que todos os elementos do documento não devem ter margem ou preenchimento.*/
 }
 
 
 .crianca-gorda{
-    display:grid;
-    padding: 50px;
+    display: grid;
     height: 250px;
-    width: 200px;
+    width: 250px;
+    padding: 50px;
+    padding-left: 130px;
+    /*Este bloco define um estilo para uma classe chamada .crianca-gorda. Ele especifica que o elemento com essa classe deve ser exibido como um grid com uma altura e largura de 250px, além de ter preenchimento e um preenchimento à esquerda de 130px.*/
 }
 
 
 .logo{
     width: 200px;
-    height: 130px;
+    height: 13,0px;
     border-radius: 70%;
     border: 70%;
+    /*Este bloco define um estilo para uma classe chamada .logo. Ele especifica que o elemento com essa classe deve ter uma largura de 200px, altura de 13,0px, um raio de borda de 70% e uma borda de 70%.*/
 }
 
 .foto{
     height: 250px;
     width: 250px;
     padding: 50px;
-    padding-left: 100px;
-    
+    padding-left: 130px;
+    /*especifica que o elemento com essa classe deve ter uma altura e largura de 250px, além de ter preenchimento e um preenchimento à esquerda de 130px.*/
 
 }
 
@@ -45,17 +49,19 @@ header{
     display: flex;
     align-items: center;
     color: white
-    
+    /*especifica que o elemento deve ser exibido como um flex container e seus itens devem ser alinhados verticalmente ao centro. Além disso, define a cor do texto como branco.*/
 }
 
 footer{
     display: flex;
     align-items: center;
+    /*eecifica que o elemento deve ser exibido como um flex container e seus itens devem ser alinhados verticalmente ao centro.*/
 }
 
 p{
     color: black;
     font-size: larger;
+    /*especifica que o texto deve ser exibido na cor preta e o tamanho da fonte*/
 }
 
 .grid-h{
@@ -63,25 +69,31 @@ p{
     background-color: #4f4f4f;
     display:flex;
     text-align: right;
+    /**/
 }
 
 .grid-a{
     grid-area: ladoss;
     background-color:aliceblue;
-
+    padding-bottom:  50px;
+    /* especifica que o elemento com essa classe deve ocupar a área de grid chamada ladoss, ter uma cor de fundo azul claro e ter um preenchimento inferior de 50px.*/
 }
 .grid-m{
     grid-area: princi;
     background-color: aliceblue;
+    padding-top:  50px;
+/*especifica que o elemento com essa classe deve ocupar a área de grid chamada cabeca, ter uma cor de fundo cinza escuro e o conteúdo deve ser exibido alinhado à direita
+*/
 }
  
 .grid-n{
     grid-area: ladosx;
     background-color: aliceblue;
+/* especifica que o elemento com essa classe deve ocupar a área de grid chamada ladosx e ter uma cor de fundo azul claro.*/
 }
 
 .grid-f{
     grid-area: footer;
     background-color: #4f4f4f;
-    
+    /* Ele especifica que o elemento com essa classe deve ocupar a área de grid chamada footer e ter uma cor de fundo cinza escuro.*/
 }
